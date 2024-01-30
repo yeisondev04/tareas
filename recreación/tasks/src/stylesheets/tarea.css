@@ -1,0 +1,41 @@
+.task {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: aliceblue;
+    border: solid 1px black;
+    min-height: 40px;
+    max-width: 200px;
+    justify-content: space-between;
+    border-radius: 5px;
+    overflow: hidden;
+    cursor: pointer;
+    text-wrap: wrap;
+}
+
+.task:hover {
+    filter: brightness(.9);
+}
+
+.task.completada {
+    background-color: rgba(187, 158, 213, 0.356);
+    text-decoration: line-through;
+}
+
+
+.tarea-texto {
+    display: flex;
+    align-items: center;
+    width: 80%;
+    height: 100%;
+    text-wrap: wrap;
+}
+
+.contenedor-icono-eliminar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+    height: 100%;
+    border-left:solid 1px black;
+}

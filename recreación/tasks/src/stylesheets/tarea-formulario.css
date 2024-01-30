@@ -1,0 +1,34 @@
+.contenedor-formulario {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 200px;
+    height: 40px;
+    margin: 5px 0;
+}
+
+.formulario {
+    width: 80%;
+    height: 100%;
+    padding: 5px;
+    border-radius: 5px 0 0 5px;
+    border: solid 1px black;
+    border-right: none;
+}
+
+.boton-enviar-formulario {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    border-radius: 0 5px 5px 0;
+    border: solid 1px black;
+    cursor: pointer;
+}
+
+
+
+.tareas-contenedor {
+    display: flex;
+    flex-direction: column;
+    gap:5px
+}
